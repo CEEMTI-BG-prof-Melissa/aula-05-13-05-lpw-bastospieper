@@ -5,29 +5,29 @@
   
   <body>
     <h1> Formúlario com método GET</h1>
-    <form>
+    <form action="/Pagy.php" method="get">
       
         <br>
-      Login: <input type="text">
+      Login: <input type="text" id="login" name="login">
       <br>
     
         <br>
-      Senha: <input type="password">
+      Senha: <input type="password" id="senha" name="senha">
       <br>
     
         <br>
       <input type="button" value="entrar">
       <br>
-    
+    </form>
       <h1> Formúlario com método POST</h1>
-    <form>
+    <form action="/Pagy.php" method="post">
       
         <br>
-      Login: <input type="text">
+      Login: <input type="text" id="login" name="login">
       <br>
     
         <br>
-      Senha: <input type="password">
+      Senha: <input type="password" id="senha" name="senha">
       <br>
     
         <br>
@@ -38,3 +38,4 @@
     </form>
   </body>
 </html>
+
